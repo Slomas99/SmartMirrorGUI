@@ -12,7 +12,6 @@ root = tk.Tk() #root widget, creates the window
 screen_width = root.winfo_screenwidth() #next two lines are used to automatically scale the window
 screen_height = root.winfo_screenheight()
 root.geometry(str(screen_width) + "x" + str(screen_height)) #ditto.
-root.state("zoomed")
 
 w = tk.Label(root, text="Hello World!").pack()
 
